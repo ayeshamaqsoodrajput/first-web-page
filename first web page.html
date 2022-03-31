@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>WEB</title>
+</head>
+<body>
+<style>
+    *{
+        padding: 0%;
+        margin: 0;
+    }
+  
+    .nav ol{
+      display:flex;
+            flex-direction:row;
+            justify-content:left;
+        }
+        .nav ol li{
+            list-style:none;
+            padding:5px;
+            margin-bottom:13px;
+        }
+       .navbar ul{
+              background-color: rgb(15, 12, 14);
+             padding: left 0%;
+             display:flex;
+             flex-direction: row;
+             justify-content:left;  
+              }
+              
+          .navbar  ul li{
+             list-style: none;
+            padding: 20px;
+            flex-direction: row;
+        color:rgb(250, 253, 253);
+        margin-bottom: 6px;
+    }
+        .navbar ul li a{
+            color:white;
+        }
+       .navbar  ul li:hover{
+          color:white;
+          text-decoration:;
+          background-color:#FFDB3E;
+        }
+        select,option{
+            width:240px;
+            padding:0%;
+        }
+        .backsection{
+            width:100%;
+            height:80vh;
+            background-color: aqua;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .LEFT{
+            width:24.5%;
+            height: 85vh;
+            background-color: #070707;
+        }
+        .RIGHT{
+            width:75.5%;
+            height: 85vh;
+            background-image: url('head.jpg');
+            display: flex;
+            background-size: cover;
+            background-position: center;
+        }
+        .Rcontent{
+            width: 40%;
+            display: flex;
+             flex-display:column ;
+             justify-content: center;
+             padding:5%;
+        }
+        .Rcontent {
+            display:inline-block;
+           
+        }
+        .Rcontent > h4{
+        margin-top:20px;
+        margin-right:10px;
+        font-size: x-large;
+       
+        }
+             .Rcontent > h1{
+           font-size:60px;
+          font-weight:100;
+          margin-top:50px;
+             }
+             .Rcontent > h3{
+                 margin-top:20px ;
+             }
+             .Rcontent >p{
+                margin-top: 15px;
+                 font-weight: 20px;
+             }
+        .Rcontent> button{
+          width:50%;
+          height:50px ;
+          padding:10px 20px;
+          background-color:rgb(8, 8, 8);
+          color:white;
+           border:1px solid black;
+           margin-top: 60px;
+           margin-left:30px ;
+           box-shadow:0 10px 20px black;
+        }
+        .Rcontent>button:hover{
+            background-color:#FFDB3E;
+        }
+        .bar button{
+          width:22%;
+          height:45px ;
+          background-color:rgb(15, 0, 0);
+           border:1px solid #FFDB3E;
+           margin-top:24px;
+           margin-left:25px ;
+           justify-content: center;
+         align-items: center;
+         box-shadow:0 10px 20px #FFDB3E;
+        }
+        .bar button:hover{
+            background-color:#FFDB3E;
+        }
+        .bar button a{
+            color:white;
+            }
+        .main{
+            width:100%;
+            height:40vh;
+            display:flex;
+            flex-direction: row;
+        }
+        .herosection1{
+            width:370px;
+            height:200px;
+            padding:20px;
+            margin-top:4px;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .hsleft1{
+            width:350px%;
+            height:200px;
+            background-color: #070707;
+        }
+          .hsright1{
+            width:350px;
+            height:200px;
+            background-image: url('child1.jpg');
+            display: flex;
+            background-size: cover;
+            background-position: center;
+          }
+        .hsrcontect1{
+            width:10%;
+            margin-left:20px;
+            display:flex;
+            flex-direction: column;
+             padding-left:20%;
+             margin-top:25px;
+             margin-bottom: 50px;
+    align-items: center;
+        }
+        .hsrcontect1>button{
+          width:150%;
+          height:50px;
+          padding:5px;
+          color:white;
+          background-color:#070707;
+         margin-top:10px;
+        }
+        .hsrcontect1{
+            display: flex;
+        }
+        .herosection2{
+            width:370px;
+            height:200px;
+            padding:10px;
+            margin-top:4px;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .hsleft2{
+            width:350px%;
+            height:200px;
+            background-color: #070707;
+        }
+          .hsright2{
+            width:350px;
+            height:200px;
+            background-image: url('shoes1.jpg');
+            display: flex;
+            background-size: cover;
+            background-position: center;
+          }
+        .hsrcontect2{
+            width:10%;
+            margin-left:5px;
+            display:flex;
+            flex-direction: column;
+             padding-left:10%;
+             margin-top:30px;
+             margin-bottom: 50px;
+    align-items: center;
+        }
+        .hsrcontect2>button{
+          width:150%;
+          height:50px;
+          padding:5px;
+          color:white;
+          background-color:#070707;
+         margin-top:10px;
+        }
+        .hsrcontect2{
+            display: flex;
+        }
+        .herosection3{
+            width:370px;
+            height:200px;
+            padding:10px;
+            margin-top:4px;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .hsleft3{
+            width:350px%;
+            height:200px;
+            background-color: #070707;
+        }
+          .hsright3{
+            width:350px;
+            height:200px;
+            background-image: url('shirt1.jpg');
+            display: flex;
+            background-size: cover;
+            background-position: center;
+          }
+        .hsrcontect3{
+            width:10%;
+            margin-left:20px;
+            display:flex;
+            flex-direction: column;
+             padding-left:10%;
+             margin-top:25px;
+             margin-bottom: 50px;
+    align-items: center;
+        }
+        .hsrcontect3>button{
+          width:150%;
+          height:50px;
+          padding:5px;
+          color:white;
+          background-color:#070707;
+         margin-top:10px;
+        }
+        .hsrcontect3{
+            display: flex;
+        }
+ </style>
+<div class="nav">
+    <ol>
+        <li>Welcome To Nearstore</li>
+        <li style=" margin-left:60%;">usd</li>
+        <li>eng | </li>
+        <li>blog |</li>
+        <li>contact</li>
+        <li>account</li>
+        <li>Sign </li>
+    </ol>
+</div>
+<hr>
+<h3 style="color:#070707;" style="padding:5px;" <b> NEARSTORE</b> community
+<center><input type="text"
+placeholder= "All categories   |  Search In "
+style="outline:solid #FFDB3E; width:550px;padding:10px; margin-bottom: 20px;"></center></h3>
+<div class="navbar">
+<ul> 
+    <li>
+    <select option=" BROWSE CATEGORIES"style="background-color:#FFDB3E;">
+        <option value="1" style="background-color:white;">BROWSE CATEGORIES</option> 
+         <option value="2" style="background-color:white;">Wireless (Bluetooth)</option> 
+         <option value="3" style="background-color:white;"> Electronics</option> 
+         <option value="4" style="background-color:white;"> Gifts</option>
+         <option value="5" style="background-color:white;">Fashion</option>
+         <option value="6" style="background-color:white;">Games&Toy</option>
+         <option value="7" style="background-color:white;">Tuch Phones</option>
+         <option value="8" style="background-color:white;">Waterproof</option>
+         <option value="8" style="background-color:white;">Open-back</option>
+         <option value="9" style="background-color:white;">Cameras</option>
+         <option value="10" style="background-color:white;">Smart phones</option>
+         <option value="11" style="background-color:white;">Watch</option>
+         <option value="12" style="background-color:white;">DJ</option>
+         <option value="13" style="background-color:white;">VIEW ALL CATEGORIES</option>
+     </select></li> 
+  <li><a href ="#">Home</a></li>
+  <li><a href="#">Shop</a></li>
+  <li><a href="#">Vendor</a></li>
+  <li><a href="#">Blog</a></li>
+  <li><a href="#">About us</a></li>
+  <li style="margin-left:350px;">Track Oder </li>
+  <li>Daily Deals</li>
+  </ul>
+  </div>
+<div class="page">
+    <div class="backsection">
+        <div class="LEFT">
+        </div>
+        <div class="RIGHT"> 
+            <div class="Rcontent">
+                <h4>ONLINE STORE</h4>
+                <h1>Headphones</h1>
+                <h3>Recomended</h3>
+                <p>Free Shipping on all orders over $99.00</p>
+        <button>SHOP NOW</button>
+        </div>
+        </div>
+</div>
+</div>
+<div class="bar">
+    <button><a href="#"><b>Money Back Guarantoo</b> </br> 
+    Any back withing 3 days </a></button>
+    <button><a href="#"><b>Customer Support</b> </br> 
+     call or email us 24/7</a></button>
+    <button><a href="#"><b>Free Shipping & Returns</b> </br> 
+    For all orders over $99</a></button>
+     <button><a href="#"><b>Secure payment</b> </br> 
+    We ensure Secum payment</a></button>
+</div>
+<div class="main">
+      <div class="wrapper1">
+        <div class="herosection1">
+            <div class="hsleft1">
+                </div>
+                <div class="hsright1">
+                    <div class="hsrcontect1">
+                        <h2>Online Store</h2>
+         <h3>Fashion's </h3>
+         <h4>Start</h4>
+         <h5>Recomended</h5>
+          <button>SHOP NOW</button>
+          </div>
+          </div>
+          </div>
+          </div>
+          <div class="wrapper2">
+            <div class="herosection2">
+                <div class="hsleft2">
+                    </div>
+                    <div class="hsright2">
+                        <div class="hsrcontect2">
+            <h2>Foot Wears</h2> 
+              <h4>Happy Shopping</h4>
+              <h5>Recomended</h5>
+              <button>SHOP NOW</button>
+              </div>
+              </div>
+              </div>
+              </div>
+            <div class="wrapper3">
+                <div class="herosection3">
+                    <div class="hsleft3">
+                        </div>
+                        <div class="hsright3">
+                            <div class="hsrcontect3">
+                <h2>For Men's</h2>
+                  <h4>All Size</h4>
+                  <h5>Recomended</h5>
+                  <button>SHOP NOW</button>
+                  </div>
+                  </div>
+                  </div>
+                </div>
+</body>
+</html>  
